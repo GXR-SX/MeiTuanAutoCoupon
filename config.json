@@ -1,10 +1,10 @@
 {
-  "couponReferId": "D65881E6226B417E9E909111DA2DD791",
-  "gdPageId": "495093",
-  "pageId": "497076",
-  "instanceId": "16843237183550.7887493532593517",
-  "maxCount": 30,
-  "startTime": "2023-05-20 14:00:00",
-  "preGenerationTime": 40000,
-  "leadTime": 200
+  "couponReferId": "B6429DCDED254A3E9098B945962733D9",
+  "gdPageId": "492296",
+  "pageId": "508858",
+  "instanceId": "16867435076710.63550167146689760",
+  "maxCount": 100,
+  "startTime": "2023-06-16 13:00:00",
+  "preGenerationTime": 120000,
+  "leadTime": 400
 }

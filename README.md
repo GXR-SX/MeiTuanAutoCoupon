@@ -1,10 +1,31 @@
 # MeiTuanAutoCoupon
-# 美团网页抢券通用脚本 自带1.0mtgsig（原创脚本，仅供学习交流使用，关注忒星不迷路）
+# 美团网页抢券通用脚本 自带1.1mtgsig（原创脚本，仅供学习交流使用，关注忒星不迷路）
 
+# 更新日志
+```text
+2023-06-16
+升级mtgsig1.1 使用白设备白号的完整cookie或可破环境异常
+
+```
 # 说明
 1.脚本适用范围（几乎所有美团外卖网页券活动，如母亲节鲜花100无门槛、品质百货30无门槛、直播间120蛋糕券等...）
 
-2.后续美团相关活动
+# 错误说明
+1.TypeError: Cannot read property 'dfpId' of undefined
+
+答：使用了错误的cookie 如：token=xxxx; 请使用完整的美团cookie
+
+2.报错js调用错误
+
+答：务必安装装nodejs（不是python暗转nodejs模块，去官网下载安装包，不会自行百度）
+
+3.到点账号或环境异常
+
+答：请使用白设备抓微信网页或微信小程序里的完整cookie使用
+
+4.config.json里的参数设置怎么配置
+
+答：课程：https://www.cctalk.com/m/group/90849464
 
 # 运行环境要求
 1.NodeJs （https://nodejs.org/en）
